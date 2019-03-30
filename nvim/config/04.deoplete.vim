@@ -11,9 +11,15 @@ call deoplete#custom#source('LanguageClient',
     \ 'min_pattern_length',
     \ 2)
 
+if !exists('g:deoplete#omni#input_patterns')
+    let g:deoplete#omni#input_patterns = {}
+endif
+
 " disable the candidates in Comment/String syntaxes
 call deoplete#custom#source('_',
     \ 'disabled_syntaxes', ['Comment', 'String'])
+
+autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
 
 " setting sources
 call deoplete#custom#option('sources', {
@@ -25,5 +31,4 @@ call deoplete#custom#option('sources', {
 "ignore sources
 let g:deoplete#ignore_sources = {}
 let g:deoplete#ignore_sources._ = [ 'buffer', 'around', 'tag']
-
 

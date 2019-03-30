@@ -19,7 +19,7 @@ Plug 'w0rp/ale'
 
 Plug 'chriskempson/base16-vim'
 
-Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh' }
+Plug 'autozimu/LanguageClient-neovim', { 'rev': 'next', 'do': 'bash install.sh' }
 
 call plug#end()
 
