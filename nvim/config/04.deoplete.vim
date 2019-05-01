@@ -1,4 +1,10 @@
 " Config for deoplete plugin
+" setup python on windows
+if has("win") || has("win64")
+    let g:python_host_prog='/Python27/python.exe'
+    let g:python3_host_prog='/Users/Cody Claborn/AppData/Local/Programs/Python/Python36/python.exe'
+endif
+
 " Use deoplete
 let g:deoplete#enable_at_startup=1
 let g:deoplete#enable_smart_case=1
@@ -31,4 +37,5 @@ call deoplete#custom#option('sources', {
 "ignore sources
 let g:deoplete#ignore_sources = {}
 let g:deoplete#ignore_sources._ = [ 'buffer', 'around', 'tag']
+
 

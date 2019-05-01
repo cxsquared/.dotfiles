@@ -55,3 +55,17 @@ let g:ale_completion_enabled = 0
 
 " Only run linters named in ale_linters settings.
 let g:ale_linters_explicit = 1
+
+" font
+if has("win") || has("win64")
+   set guifont=Source\ Code\ Pro\ for\ Powerline:h12:cANSI
+
+   let s:fontsize = 12
+   function! AdjustFontSize(amount)
+       let s:fontsize = s:fontsize+a:amount
+       :execute "GuiFont Source Code Pro for Powerline:h" . s:fontsize . ":cANSI" 
+       endfunction
+
+    noremap <Leader>> <Esc>:call AdjustFontSize(1)<CR>
+    noremap <Leader>< <Esc>:call AdjustFontSize(-1)<CR>
+endif
