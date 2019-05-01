@@ -1,12 +1,12 @@
 Right now this is only my config files for neovim but it will probably expand in the future.
 
-#Linux
+# Linux
 - .gitconfig:
     Install to ~/
 - nvim
     Install to ~/.config/
 
-#Windows
+# Windows
 - .gitconfig:
     Install to ~/
 - nvim
