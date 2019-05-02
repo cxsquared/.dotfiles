@@ -56,3 +56,10 @@ let g:ale_completion_enabled = 0
 " Only run linters named in ale_linters settings.
 let g:ale_linters_explicit = 1
 
+"set vim to chdir for each file
+if exists('+autochdir')
+    set autochdir
+else
+    autocmd BufEnter * silent! lcd %:p:h:gs/ /\\ /
+endif
+
