@@ -12,6 +12,7 @@ set ruler "Show row and column ruler information
 set showbreak=+++ "Wrap-broken line prefix
 set showmatch "Highlight matching brace
 set showcmd "Show command in bottom bar
+set cmdheight=2
 set title " show file in titlebar
 set showmode " show mode in status bar (insert/replace..)
 set visualbell "Use visual bell (no beep)

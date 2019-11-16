@@ -31,7 +31,10 @@ autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
 call deoplete#custom#option('sources', {
     \ 'c': ['LanguageClient'],
     \ 'cpp': ['LanguageClient'],
-    \ 'vim': ['vim']
+    \ 'vim': ['vim'],
+    \ 'javascript': ['LanguageClient'],
+    \ 'typescript': ['LanguageClient'],
+    \ 'php': ['LanguageClient']
 \})
 
 "ignore sources

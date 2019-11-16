@@ -6,4 +6,8 @@ Important Notes:
 - Run pip install pynvim and pip3 install pynvim 
 - Need to install powerline fonts https://github.com/powerline/fonts
 - Need to setup `ccls` https://github.com/MaskRay/ccls
+- Install nodejs
+- Run 'npm install -g neovim'
+- Run 'npm i javascript-typescript-langserver -g'
+- Run 'npm i intelephense -g'
 
