@@ -8,8 +8,6 @@ else
 endif
 
 " Make sure you use single quotes
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'Shougo/deol.nvim'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -23,7 +21,9 @@ Plug 'w0rp/ale'
 
 Plug 'chriskempson/base16-vim'
 
-Plug 'autozimu/LanguageClient-neovim', { 'rev': 'next', 'do': 'bash install.sh' }
+Plug 'junegunn/fzf'
+
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'vimwiki/vimwiki'
 Plug 'mattn/calendar-vim'
