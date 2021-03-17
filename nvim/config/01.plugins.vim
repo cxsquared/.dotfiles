@@ -4,7 +4,7 @@
 if has('win32') || has('win64')
 	call plug#begin('~/AppData/Local/nvim/plugged')
 else
-	call plug#begin('~/.local/share/nvim/plugged')
+	call plug#begin(stdpath('config') . '/plugged')
 endif
 
 " Make sure you use single quotes
@@ -27,6 +27,11 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'vimwiki/vimwiki'
 Plug 'mattn/calendar-vim'
+
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+
+Plug 'Shougo/echodoc.vim'
 
 call plug#end()
 

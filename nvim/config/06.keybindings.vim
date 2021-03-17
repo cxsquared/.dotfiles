@@ -10,3 +10,8 @@ nmap <F8> <Plug>(ale_fix)
 
 " <ESC> exits in terminal mode
 tnoremap <ESC> <C-\><C-n><C-w><C-p>
+
+" fzf
+nnoremap <C-p> :Files<CR>
+nnoremap <Leader>b :Buffers<CR>
+nnoremap <Leader>h :History<CR>
