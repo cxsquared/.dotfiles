@@ -11,6 +11,7 @@ All my configs for setting up a new computer
 [git](https://git-scm.com/downloads/win)
 
 ### GameDev
+
 [Aseprite](https://www.aseprite.org/#buy) - Probably search your email for this
 [PlaydateSdk](https://play.date/dev/)
 [Haxe](https://haxe.org/download/)
