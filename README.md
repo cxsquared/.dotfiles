@@ -18,9 +18,13 @@ All my configs for setting up a new computer
 
 ### General
 
+[Firefox](https://www.mozilla.org/en-US/firefox/windows/)
 [Obsidian](https://obsidian.md/)
 [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader)
-
+[7zip](https://www.7-zip.org/)
+[Discord](https://discord.com/)
+[Spotify](https://www.spotify.com/de-en/download/windows/)
+[Everything](https://www.voidtools.com/)
 
 ## Configs
 
